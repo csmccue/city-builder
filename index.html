@@ -22,7 +22,65 @@
     </header>
 
     <main>
-
+        <div class="left">
+            <label>
+                Name Your City
+                <input id="city-input" />
+                <button id="city-button">Add</button>
+            </label>
+            <div class="picker">
+                <label> Climate
+                    <select id="climate-dropdown">
+                        <option value="hot">Hot</option>
+                        <option value="mild">Mild</option>
+                        <option value="cold">Cold</option>
+                        <option value="astronomical">Astronomical</option>
+                    </select>
+                </label>
+                <label> Location
+                    <select id="location-dropdown">
+                        <option value="asia">Asia</option>
+                        <option value="north-america">North America</option>
+                        <option value="europe">Europe</option>
+                        <option value="south-america">South America</option>
+                    </select>
+                </label>
+                <label> Type
+                    <select id="type-dropdown">
+                        <option value="castle">Castle</option>
+                        <option value="urban">Urban</option>
+                        <option value="rural">Rural</option>
+                        <option value="suburbs">Suburbs</option>
+                    </select>
+                </label>
+                <label>
+                    Add a town slogan!
+                    <input id="slogan-input" />
+                    <button id="slogan-button">Add</button>
+                </label>
+            </div>
+            <div id="stats">
+                <p id="report"></p>
+                <div id="slogans">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div id="name"></div>
+            <div class="city">
+                <div class="bg top" id="top">
+                    <img id="top-img">
+                </div>
+                <div class="bg middle" id="middle">
+                    <img id="middle-img">
+                </div>
+                <div class="bg bottom" id="bottom">
+                    <img id="bottom-img">
+                </div>
+            </div>
+            
+        </div>
     </main>
 
     <footer>&copy;2022 Software Developer</footer>
